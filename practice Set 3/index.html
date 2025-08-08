@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set.</title>
+    <style>
+        .process_container {
+            height: 50px;
+            width: 90%;
+            background-color: gray;
+            border: 2px solid black;
+            border-radius: 20px;
+
+        }
+
+        .process_bar {
+            height: 100%;
+            width: 50%;
+            background-color: hotpink;
+            border-radius: 20px;
+            animation: animate_process 3s 5;
+
+        }
+
+        @keyframes animate_process {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="process_container">
+        <div class="process_bar"></div>
+    </div>
+
+</body>
+
+</html>

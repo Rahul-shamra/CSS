@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+}
+header{
+    background-color: rgb(17, 245, 253);
+    height: 30px;
+}
+.second{
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 5px;
+    display: inline-block;
+
+}
+.container{
+    border: 2px solid black;
+    margin: 5px;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    right: 10px;
+    border: 1px solid black;
+    border-radius: 10px
+    
+}
+footer p{
+    background-color: rgb(231, 152, 5);
+    position: fixed;
+    bottom: 10px;
+    border: 2px solid black;
+}

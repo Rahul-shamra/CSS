@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes.</title>
+    <style>
+        .one{
+            height: 20px;
+            width: 150px;
+            /* border: 2px solid red; */
+            border-radius: 5px;
+            background-color: aqua;
+            
+            
+        }
+        .one:hover{
+            border-color: blueviolet;
+            background-color: chartreuse;
+        }
+        .one:active{
+            background-color: yellow;
+        }
+        .second{
+            height: 100px;
+            width: 150px;
+            background-color: aqua;
+            border: 2px solid black;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .second:hover{
+            background-color: cadetblue;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="one">Click me</button>
+
+    <div class="second">Hello</div>
+    
+</body>
+</html>

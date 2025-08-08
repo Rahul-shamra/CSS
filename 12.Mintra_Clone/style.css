@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: rgb(252, 249, 246);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(231, 227, 227);
+    position: sticky;
+    top: 0;
+    left: 0;
+
+
+}
+
+.image_logo {
+    height: 45px;
+
+}
+
+.logo_container {
+    margin-left: 4%;
+}
+
+.action_bar {
+    margin-right: 4%;
+}
+
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav_bar sup {
+    color: red;
+    font-size: 10px;
+}
+
+.search_bar {
+
+    height: 40px;
+
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+}
+
+.search_icon {
+
+    height: 20px;
+}
+
+.action_Container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.profile,
+.wishlist,
+.bag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* main section start */
+.banner_container {
+    margin: 40px 0;
+}
+
+.banner_image {
+    width: 100%;
+}
+
+.category_heading h1 {
+    font-family: sans-serif;
+    margin: 50px;
+    color: rgb(83, 81, 81);
+    font-weight: 700;
+}
+
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+.sale_item {
+    width: 250px;
+
+}
+
+.one {
+    height: 250px;
+}
+
+.offers_container {
+    color: rgb(110, 106, 106);
+    margin-left: 40px;
+
+}

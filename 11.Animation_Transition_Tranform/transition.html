@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition.</title>
+    <style>
+        .first{
+            height: 50px;width: 150px;
+            border-radius: 10px;
+            background-color: blueviolet;
+            border: 2px dotted red;
+/* 
+            transition-property: all;
+            transition-duration: 4s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s; */
+            transition: all 4s ease-in-out 0s;
+
+        }
+        .first:hover{
+            background-color: #da0404;
+            border: 2px solid black;
+            height: 100px;
+        }
+        .first:active{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <button class="first">Rahul sharma</button>
+    
+</body>
+</html>
